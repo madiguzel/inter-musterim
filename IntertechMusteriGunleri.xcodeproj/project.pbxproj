@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB3406391E7FB42200306FF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3406381E7FB42200306FF1 /* main.m */; };
+		FB34063C1E7FB42200306FF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB34063B1E7FB42200306FF1 /* AppDelegate.m */; };
+		FB34063F1E7FB42200306FF1 /* AgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB34063E1E7FB42200306FF1 /* AgendaViewController.m */; };
+		FB3406421E7FB42200306FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3406401E7FB42200306FF1 /* Main.storyboard */; };
+		FB3406441E7FB42200306FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB3406431E7FB42200306FF1 /* Assets.xcassets */; };
+		FB3406471E7FB42200306FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3406451E7FB42200306FF1 /* LaunchScreen.storyboard */; };
+		FB3406501E7FB4A100306FF1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB34064F1E7FB4A100306FF1 /* BaseViewController.m */; };
+		FB34065A1E7FDAC000306FF1 /* CatalogueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3406591E7FDAC000306FF1 /* CatalogueViewController.m */; };
+		FB34065D1E7FE08600306FF1 /* CatalogueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB34065C1E7FE08600306FF1 /* CatalogueCell.m */; };
+		FB3406601E7FE0C800306FF1 /* CatalogueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FB34065F1E7FE0C800306FF1 /* CatalogueItem.m */; };
+		FB3406641E7FE33B00306FF1 /* CatalogueDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3406631E7FE33B00306FF1 /* CatalogueDetailViewController.m */; };
+		FB3406691E7FFD3700306FF1 /* CatalogueItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB3406681E7FFD3700306FF1 /* CatalogueItems.plist */; };
+		FB3406741E81084500306FF1 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3406731E81084500306FF1 /* GTMNSString+HTML.m */; };
+		FB72E0CA1E815D8200570BC1 /* UINavigationBar+Tall.m in Sources */ = {isa = PBXBuildFile; fileRef = FB72E0C91E815D8200570BC1 /* UINavigationBar+Tall.m */; };
+		FBFCA4741E82658F00299C1F /* NSAttributedString+DDHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFCA4731E82658F00299C1F /* NSAttributedString+DDHTML.m */; };
+		FBFCA4771E82659C00299C1F /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FBFCA4761E82659C00299C1F /* libxml2.tbd */; };
+		FBFCA47A1E82694300299C1F /* SessionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFCA4791E82694300299C1F /* SessionCell.m */; };
+		FBFCA47D1E82695000299C1F /* BreakCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFCA47C1E82695000299C1F /* BreakCell.m */; };
+		FBFCA4801E826AAB00299C1F /* SessionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFCA47F1E826AAB00299C1F /* SessionItem.m */; };
+		FBFCA4821E826AB800299C1F /* SessionItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBFCA4811E826AB800299C1F /* SessionItems.plist */; };
+		FBFCA4871E8284E100299C1F /* Myriad-Pro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBFCA4831E8284E100299C1F /* Myriad-Pro-Light.otf */; };
+		FBFCA4881E8284E100299C1F /* MyriadPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBFCA4841E8284E100299C1F /* MyriadPro-Bold.otf */; };
+		FBFCA4891E8284E100299C1F /* Myriad-Pro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBFCA4851E8284E100299C1F /* Myriad-Pro-Italic.ttf */; };
+		FBFCA48A1E8284E100299C1F /* Myriad-Pro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBFCA4861E8284E100299C1F /* Myriad-Pro-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB3406341E7FB42200306FF1 /* intertech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intertech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3406381E7FB42200306FF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB34063A1E7FB42200306FF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB34063B1E7FB42200306FF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB34063D1E7FB42200306FF1 /* AgendaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgendaViewController.h; sourceTree = "<group>"; };
+		FB34063E1E7FB42200306FF1 /* AgendaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgendaViewController.m; sourceTree = "<group>"; };
+		FB3406411E7FB42200306FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB3406431E7FB42200306FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB3406461E7FB42200306FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB3406481E7FB42200306FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB34064E1E7FB4A100306FF1 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FB34064F1E7FB4A100306FF1 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FB3406581E7FDAC000306FF1 /* CatalogueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogueViewController.h; sourceTree = "<group>"; };
+		FB3406591E7FDAC000306FF1 /* CatalogueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogueViewController.m; sourceTree = "<group>"; };
+		FB34065B1E7FE08500306FF1 /* CatalogueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogueCell.h; sourceTree = "<group>"; };
+		FB34065C1E7FE08600306FF1 /* CatalogueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogueCell.m; sourceTree = "<group>"; };
+		FB34065E1E7FE0C800306FF1 /* CatalogueItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogueItem.h; sourceTree = "<group>"; };
+		FB34065F1E7FE0C800306FF1 /* CatalogueItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogueItem.m; sourceTree = "<group>"; };
+		FB3406611E7FE2DC00306FF1 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		FB3406621E7FE33B00306FF1 /* CatalogueDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogueDetailViewController.h; sourceTree = "<group>"; };
+		FB3406631E7FE33B00306FF1 /* CatalogueDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogueDetailViewController.m; sourceTree = "<group>"; };
+		FB3406681E7FFD3700306FF1 /* CatalogueItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CatalogueItems.plist; sourceTree = "<group>"; };
+		FB3406721E81084500306FF1 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		FB3406731E81084500306FF1 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		FB72E0C81E815D8200570BC1 /* UINavigationBar+Tall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Tall.h"; sourceTree = "<group>"; };
+		FB72E0C91E815D8200570BC1 /* UINavigationBar+Tall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Tall.m"; sourceTree = "<group>"; };
+		FBFCA4721E82658F00299C1F /* NSAttributedString+DDHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+DDHTML.h"; sourceTree = "<group>"; };
+		FBFCA4731E82658F00299C1F /* NSAttributedString+DDHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+DDHTML.m"; sourceTree = "<group>"; };
+		FBFCA4761E82659C00299C1F /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		FBFCA4781E82694300299C1F /* SessionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionCell.h; sourceTree = "<group>"; };
+		FBFCA4791E82694300299C1F /* SessionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionCell.m; sourceTree = "<group>"; };
+		FBFCA47B1E82695000299C1F /* BreakCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreakCell.h; sourceTree = "<group>"; };
+		FBFCA47C1E82695000299C1F /* BreakCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreakCell.m; sourceTree = "<group>"; };
+		FBFCA47E1E826AAB00299C1F /* SessionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionItem.h; sourceTree = "<group>"; };
+		FBFCA47F1E826AAB00299C1F /* SessionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionItem.m; sourceTree = "<group>"; };
+		FBFCA4811E826AB800299C1F /* SessionItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SessionItems.plist; sourceTree = "<group>"; };
+		FBFCA4831E8284E100299C1F /* Myriad-Pro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Myriad-Pro-Light.otf"; sourceTree = "<group>"; };
+		FBFCA4841E8284E100299C1F /* MyriadPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Bold.otf"; sourceTree = "<group>"; };
+		FBFCA4851E8284E100299C1F /* Myriad-Pro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Myriad-Pro-Italic.ttf"; sourceTree = "<group>"; };
+		FBFCA4861E8284E100299C1F /* Myriad-Pro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Myriad-Pro-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB3406311E7FB42200306FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFCA4771E82659C00299C1F /* libxml2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB34062B1E7FB42200306FF1 = {
+			isa = PBXGroup;
+			children = (
+				FB3406361E7FB42200306FF1 /* IntertechMusteriGunleri */,
+				FB3406351E7FB42200306FF1 /* Products */,
+				FBFCA4751E82659C00299C1F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB3406351E7FB42200306FF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB3406341E7FB42200306FF1 /* intertech.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB3406361E7FB42200306FF1 /* IntertechMusteriGunleri */ = {
+			isa = PBXGroup;
+			children = (
+				FB3406571E7FD11600306FF1 /* AppFont */,
+				FB34063A1E7FB42200306FF1 /* AppDelegate.h */,
+				FB34063B1E7FB42200306FF1 /* AppDelegate.m */,
+				FB3406401E7FB42200306FF1 /* Main.storyboard */,
+				FB3406661E7FFCD900306FF1 /* ViewControllers */,
+				FB3406671E7FFCE100306FF1 /* Views */,
+				FB3406651E7FFCCB00306FF1 /* DataModel */,
+				FB3406431E7FB42200306FF1 /* Assets.xcassets */,
+				FB3406371E7FB42200306FF1 /* Supporting Files */,
+			);
+			path = IntertechMusteriGunleri;
+			sourceTree = "<group>";
+		};
+		FB3406371E7FB42200306FF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB3406611E7FE2DC00306FF1 /* Constants.h */,
+				FB3406481E7FB42200306FF1 /* Info.plist */,
+				FB3406451E7FB42200306FF1 /* LaunchScreen.storyboard */,
+				FB72E0C81E815D8200570BC1 /* UINavigationBar+Tall.h */,
+				FB72E0C91E815D8200570BC1 /* UINavigationBar+Tall.m */,
+				FBFCA4721E82658F00299C1F /* NSAttributedString+DDHTML.h */,
+				FBFCA4731E82658F00299C1F /* NSAttributedString+DDHTML.m */,
+				FB3406721E81084500306FF1 /* GTMNSString+HTML.h */,
+				FB3406731E81084500306FF1 /* GTMNSString+HTML.m */,
+				FB3406381E7FB42200306FF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB3406571E7FD11600306FF1 /* AppFont */ = {
+			isa = PBXGroup;
+			children = (
+				FBFCA4831E8284E100299C1F /* Myriad-Pro-Light.otf */,
+				FBFCA4841E8284E100299C1F /* MyriadPro-Bold.otf */,
+				FBFCA4851E8284E100299C1F /* Myriad-Pro-Italic.ttf */,
+				FBFCA4861E8284E100299C1F /* Myriad-Pro-Regular.ttf */,
+			);
+			name = AppFont;
+			sourceTree = "<group>";
+		};
+		FB3406651E7FFCCB00306FF1 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB34065E1E7FE0C800306FF1 /* CatalogueItem.h */,
+				FB34065F1E7FE0C800306FF1 /* CatalogueItem.m */,
+				FB3406681E7FFD3700306FF1 /* CatalogueItems.plist */,
+				FBFCA47E1E826AAB00299C1F /* SessionItem.h */,
+				FBFCA47F1E826AAB00299C1F /* SessionItem.m */,
+				FBFCA4811E826AB800299C1F /* SessionItems.plist */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		FB3406661E7FFCD900306FF1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB34064E1E7FB4A100306FF1 /* BaseViewController.h */,
+				FB34064F1E7FB4A100306FF1 /* BaseViewController.m */,
+				FB34063D1E7FB42200306FF1 /* AgendaViewController.h */,
+				FB34063E1E7FB42200306FF1 /* AgendaViewController.m */,
+				FB3406581E7FDAC000306FF1 /* CatalogueViewController.h */,
+				FB3406591E7FDAC000306FF1 /* CatalogueViewController.m */,
+				FB3406621E7FE33B00306FF1 /* CatalogueDetailViewController.h */,
+				FB3406631E7FE33B00306FF1 /* CatalogueDetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FB3406671E7FFCE100306FF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB34065B1E7FE08500306FF1 /* CatalogueCell.h */,
+				FB34065C1E7FE08600306FF1 /* CatalogueCell.m */,
+				FBFCA4781E82694300299C1F /* SessionCell.h */,
+				FBFCA4791E82694300299C1F /* SessionCell.m */,
+				FBFCA47B1E82695000299C1F /* BreakCell.h */,
+				FBFCA47C1E82695000299C1F /* BreakCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FBFCA4751E82659C00299C1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBFCA4761E82659C00299C1F /* libxml2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB3406331E7FB42200306FF1 /* IntertechMusteriGunleri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB34064B1E7FB42200306FF1 /* Build configuration list for PBXNativeTarget "IntertechMusteriGunleri" */;
+			buildPhases = (
+				FB3406301E7FB42200306FF1 /* Sources */,
+				FB3406311E7FB42200306FF1 /* Frameworks */,
+				FB3406321E7FB42200306FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntertechMusteriGunleri;
+			productName = IntertechMusteriGunleri;
+			productReference = FB3406341E7FB42200306FF1 /* intertech.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB34062C1E7FB42200306FF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "INTERTECH A.Ş.";
+				TargetAttributes = {
+					FB3406331E7FB42200306FF1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5GJ7XJF3VG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FB34062F1E7FB42200306FF1 /* Build configuration list for PBXProject "IntertechMusteriGunleri" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB34062B1E7FB42200306FF1;
+			productRefGroup = FB3406351E7FB42200306FF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB3406331E7FB42200306FF1 /* IntertechMusteriGunleri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB3406321E7FB42200306FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3406471E7FB42200306FF1 /* LaunchScreen.storyboard in Resources */,
+				FBFCA48A1E8284E100299C1F /* Myriad-Pro-Regular.ttf in Resources */,
+				FB3406441E7FB42200306FF1 /* Assets.xcassets in Resources */,
+				FB3406691E7FFD3700306FF1 /* CatalogueItems.plist in Resources */,
+				FB3406421E7FB42200306FF1 /* Main.storyboard in Resources */,
+				FBFCA4891E8284E100299C1F /* Myriad-Pro-Italic.ttf in Resources */,
+				FBFCA4821E826AB800299C1F /* SessionItems.plist in Resources */,
+				FBFCA4881E8284E100299C1F /* MyriadPro-Bold.otf in Resources */,
+				FBFCA4871E8284E100299C1F /* Myriad-Pro-Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB3406301E7FB42200306FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFCA47A1E82694300299C1F /* SessionCell.m in Sources */,
+				FBFCA47D1E82695000299C1F /* BreakCell.m in Sources */,
+				FBFCA4801E826AAB00299C1F /* SessionItem.m in Sources */,
+				FB34063F1E7FB42200306FF1 /* AgendaViewController.m in Sources */,
+				FB3406641E7FE33B00306FF1 /* CatalogueDetailViewController.m in Sources */,
+				FB3406741E81084500306FF1 /* GTMNSString+HTML.m in Sources */,
+				FB3406601E7FE0C800306FF1 /* CatalogueItem.m in Sources */,
+				FB3406501E7FB4A100306FF1 /* BaseViewController.m in Sources */,
+				FBFCA4741E82658F00299C1F /* NSAttributedString+DDHTML.m in Sources */,
+				FB34063C1E7FB42200306FF1 /* AppDelegate.m in Sources */,
+				FB34065A1E7FDAC000306FF1 /* CatalogueViewController.m in Sources */,
+				FB3406391E7FB42200306FF1 /* main.m in Sources */,
+				FB72E0CA1E815D8200570BC1 /* UINavigationBar+Tall.m in Sources */,
+				FB34065D1E7FE08600306FF1 /* CatalogueCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB3406401E7FB42200306FF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB3406411E7FB42200306FF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB3406451E7FB42200306FF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB3406461E7FB42200306FF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB3406491E7FB42200306FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB34064A1E7FB42200306FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB34064C1E7FB42200306FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5GJ7XJF3VG;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = IntertechMusteriGunleri/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intertech.musterigunleri;
+				PRODUCT_NAME = intertech;
+			};
+			name = Debug;
+		};
+		FB34064D1E7FB42200306FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5GJ7XJF3VG;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = IntertechMusteriGunleri/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intertech.musterigunleri;
+				PRODUCT_NAME = intertech;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB34062F1E7FB42200306FF1 /* Build configuration list for PBXProject "IntertechMusteriGunleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB3406491E7FB42200306FF1 /* Debug */,
+				FB34064A1E7FB42200306FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB34064B1E7FB42200306FF1 /* Build configuration list for PBXNativeTarget "IntertechMusteriGunleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB34064C1E7FB42200306FF1 /* Debug */,
+				FB34064D1E7FB42200306FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB34062C1E7FB42200306FF1 /* Project object */;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>SessionTitle</key>
+		<string>I. Oturum - &lt;b&gt;(09:30 - 10:55) &lt;/b&gt;</string>
+		<key>SessionContent</key>
+		<string>&lt;br&gt;&lt;b&gt;API Dünyasına Giriş&lt;/b&gt;&lt;br&gt;&lt;i&gt;IDC – Cyrus Daruwala – Finanasal Hizmetler ve Bt Yönetici Programları Direktörü&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;API Yönetiminde Yeni Nesil Çözümler ve Yeni Fırsatlar&lt;/b&gt;&lt;br&gt;&lt;i&gt;Microsoft – Osman Çokakoğlu – Partner Yönetimi ve İş Geliştirme Yöneticisi&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Finans Sektörünün İhtiyacına Uygun Çözüm ve Çalışmalar&lt;/b&gt;&lt;br&gt;&lt;i&gt;Intertech – Yılmaz Yavuz – ADK ve Dijital Kuşak Bankacılığı – İletişim Merkezi Bölüm Müdürü&lt;/i&gt;&lt;br&gt;</string>
+		<key>SessionType</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>SessionTitle</key>
+		<string>Kahve Molası &lt;b&gt;(15 Dakika)&lt;/b&gt;</string>
+		<key>SessionType</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>SessionTitle</key>
+		<string>II. Oturum - &lt;b&gt;(11:15 – 12:30)&lt;/b&gt;</string>
+		<key>SessionContent</key>
+		<string>&lt;br&gt;&lt;b&gt;Türkiye’de FinTech Ekosistemi&lt;/b&gt;&lt;br&gt;&lt;i&gt;Fintech – İhsan Elgin - FinTech İstanbul Kurucu Ortağı&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;ininal Fintech Dunyasinin Kapilarini Açıyor&lt;/b&gt;&lt;br&gt;&lt;i&gt;ininal – Mehmet Karaca – Ürün Yöneticisi&lt;/i&gt;&lt;br&gt;</string>
+		<key>SessionType</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>
